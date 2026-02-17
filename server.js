@@ -6,7 +6,7 @@ const proxy = httpProxy.createProxyServer({
   autoRewrite: true,   
 });
 
-const targetUrl = 'https://www.youtube.com'; 
+const targetUrl = 'https://minefun.io'; 
 
 const server = http.createServer((req, res) => {
   
