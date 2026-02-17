@@ -6,7 +6,7 @@ const proxy = httpProxy.createProxyServer({
   autoRewrite: true,   
 });
 
-const targetUrl = 'https://minefun.io'; 
+const targetUrl = 'https://www.croxyproxy.com/_ja/'; 
 
 const server = http.createServer((req, res) => {
   
