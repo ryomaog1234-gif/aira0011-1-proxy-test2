@@ -6,7 +6,7 @@ const proxy = httpProxy.createProxyServer({
   autoRewrite: true,   
 });
 
-const targetUrl = 'https://www.google.com'; 
+const targetUrl = 'https://www.youtube.com'; 
 
 const server = http.createServer((req, res) => {
   
